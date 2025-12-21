@@ -44,7 +44,8 @@ Once the application is running, try these commands:
 * **New Topic Generation:** `http :8080/posts/new topic=="Java 25"`
 * **Structured Destination Guide:**
   `http :8080/vacation/structured destination==Toronto`
-
+* **Multimodel Image to Text Guide:**
+  `http :8080/image-to-text`
 ---
 
 ## 📖 Course Curriculum (Implementation Progress)
