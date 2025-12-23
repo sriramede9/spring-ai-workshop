@@ -5,6 +5,7 @@ import org.springframework.ai.image.ImageOptions;
 import org.springframework.ai.image.ImageOptionsBuilder;
 import org.springframework.ai.image.ImagePrompt;
 import org.springframework.ai.image.ImageResponse;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -17,7 +18,7 @@ public class ImageGeneration {
 
     private final ImageModel imageModel;
 
-    public ImageGeneration(ImageModel imageModel) {
+    public ImageGeneration(@Autowired(required = false) ImageModel imageModel) {
         this.imageModel = imageModel;
     }
 
