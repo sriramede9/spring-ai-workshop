@@ -1,4 +1,4 @@
-package com.sri.spring_ai_workshop.multimodal;
+package com.sri.spring_ai_workshop.multimodal.image;
 
 import org.springframework.ai.image.ImageModel;
 import org.springframework.ai.image.ImageOptions;
