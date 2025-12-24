@@ -46,6 +46,8 @@ Once the application is running, try these commands:
   `http :8080/vacation/structured destination==Toronto`
 * **Multimodel Image to Text Guide:**
   `http :8080/image-to-text`
+* **Multimodel Text to Speech Guide:**
+    `http :8080/generate-speech`
 ---
 
 ## 📖 Course Curriculum (Implementation Progress)

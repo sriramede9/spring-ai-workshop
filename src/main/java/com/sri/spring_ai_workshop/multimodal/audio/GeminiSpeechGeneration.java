@@ -31,7 +31,7 @@ public class GeminiSpeechGeneration {
 
 
         GoogleGenAiChatOptions options = GoogleGenAiChatOptions.builder()
-                .model("gemini-2.5-flash-tts")
+                .model("gemini-2.0-flash")
                 .temperature(0.7)
                 .build();
 
