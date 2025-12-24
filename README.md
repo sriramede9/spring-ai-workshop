@@ -48,6 +48,8 @@ Once the application is running, try these commands:
   `http :8080/image-to-text`
 * **Multimodel Text to Speech Guide:**
     `http :8080/generate-speech`
+* **Multimodel Chat Memory:**
+    `http :8080/conversation/memory message=="what's my name, what do I like, tell me a fact I should know about what I like , what is my core technology"`
 ---
 
 ## 📖 Course Curriculum (Implementation Progress)
@@ -62,8 +64,8 @@ Once the application is running, try these commands:
 
 ### 2. Advanced Integration
 
-* [ ] Multimodal AI (Images & Audio)
-* [ ] Chat Memory & Conversation State
+* [X] Multimodal AI (Images & Audio)
+* [X] Chat Memory & Conversation State
 * [ ] RAG (Retrieval Augmented Generation)
 
 ### 3. Production & Locality
