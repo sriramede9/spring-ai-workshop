@@ -66,7 +66,11 @@ Once the application is running, try these commands:
 
 * [X] Multimodal AI (Images & Audio)
 * [X] Chat Memory & Conversation State
-* [ ] RAG (Retrieval Augmented Generation)
+* [ ] RAG
+(Ret<img width="1920" height="1037" alt="Screenshot 2025-12-24 at 5 24 49 PM" src="https://github.com/user-attachments/assets/1b8723a8-ff1c-43bb-8373-9bc2fcdc0f5b" />
+rieval Augmented Generation)
+
+
 
 ### 3. Production & Locality
 
