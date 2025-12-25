@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Downtown Premier Branch",
+    "address": "101 Main St, Metro City",
+    "hours": "9:00 AM - 5:00 PM",
+    "services": "Wealth Management, Safe Deposit, Notary",
+    "city": "Metro City"
+  },
+  {
+    "name": "Riverside Small Biz Center",
+    "address": "456 River Rd, Metro City",
+    "hours": "10:00 AM - 6:00 PM",
+    "services": "Business Loans, Commercial Banking",
+    "city": "Metro City"
+  },
+  {
+    "name": "Tech Hub Airport Branch",
+    "address": "Terminal 2, Sky Port",
+    "hours": "24/7",
+    "services": "ATM, Currency Exchange",
+    "city": "Sky Port"
+  }
+]

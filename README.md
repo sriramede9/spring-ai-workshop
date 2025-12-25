@@ -51,6 +51,16 @@ Once the application is running, try these commands:
 * **Multimodel Chat Memory:**
     `http :8080/conversation/memory message=="what's my name, what do I like, tell me a fact I should know about what I like , what is my core technology"`
 ---
+## Kafka message that consumes and inject to elasticsearch
+```
+docker exec -it kafka kafka-console-producer --bootstrap-server localhost:9092 --topic bank-policy-updates
+```
+
+### Message
+```
+{"id": "POL-101", "title": "Montreal Mortgage Rates", "content": "The new fixed rate for 5 years is 4.5% for all Quebec branches.", "category": "MORTGAGE"}
+```
+
 
 ## 📖 Course Curriculum (Implementation Progress)
 
