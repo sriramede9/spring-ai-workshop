@@ -61,6 +61,10 @@ docker exec -it kafka kafka-console-producer --bootstrap-server localhost:9092 -
 {"id": "POL-101", "title": "Montreal Mortgage Rates", "content": "The new fixed rate for 5 years is 4.5% for all Quebec branches.", "category": "MORTGAGE"}
 ```
 
+### Use of Tools
+```
+http GET :8080/weather/alerts message=="Get latitude and longitude for a city name Montreal"  
+```
 
 ## 📖 Course Curriculum (Implementation Progress)
 
